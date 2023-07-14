@@ -12,9 +12,8 @@
 		792967BA2A608AA000411177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792967B92A608AA000411177 /* ViewController.swift */; };
 		792967BF2A608AA000411177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792967BE2A608AA000411177 /* Assets.xcassets */; };
 		792967C22A608AA000411177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792967C02A608AA000411177 /* LaunchScreen.storyboard */; };
-		792967D22A608E3600411177 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792967D12A608E3600411177 /* Model.swift */; };
-		792967D42A608E4600411177 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792967D32A608E4600411177 /* AlbumCell.swift */; };
-		792967D62A608E6800411177 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792967D52A608E6800411177 /* TableCell.swift */; };
+		7929680F2A62003800411177 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7929680E2A62003800411177 /* TabBarController.swift */; };
+		792968112A6200EF00411177 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792968102A6200EF00411177 /* TabBarModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +24,8 @@
 		792967BE2A608AA000411177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		792967C12A608AA000411177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		792967C32A608AA000411177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		792967D12A608E3600411177 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		792967D32A608E4600411177 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
-		792967D52A608E6800411177 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		7929680E2A62003800411177 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		792968102A6200EF00411177 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				792967C92A608CA800411177 /* App */,
+				7929680D2A62001800411177 /* TabBar */,
 				792967CC2A608D9F00411177 /* CollectionView */,
 				792967CA2A608CB800411177 /* Resources */,
 			);
@@ -107,8 +106,6 @@
 		792967CF2A608DE600411177 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				792967D32A608E4600411177 /* AlbumCell.swift */,
-				792967D52A608E6800411177 /* TableCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -116,9 +113,17 @@
 		792967D02A608E1C00411177 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				792967D12A608E3600411177 /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7929680D2A62001800411177 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7929680E2A62003800411177 /* TabBarController.swift */,
+				792968102A6200EF00411177 /* TabBarModel.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,12 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792967D62A608E6800411177 /* TableCell.swift in Sources */,
+				792968112A6200EF00411177 /* TabBarModel.swift in Sources */,
 				792967BA2A608AA000411177 /* ViewController.swift in Sources */,
+				7929680F2A62003800411177 /* TabBarController.swift in Sources */,
 				792967B62A608AA000411177 /* AppDelegate.swift in Sources */,
-				792967D42A608E4600411177 /* AlbumCell.swift in Sources */,
 				792967B82A608AA000411177 /* SceneDelegate.swift in Sources */,
-				792967D22A608E3600411177 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
