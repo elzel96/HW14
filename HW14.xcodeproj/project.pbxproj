@@ -14,6 +14,7 @@
 		792967C22A608AA000411177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792967C02A608AA000411177 /* LaunchScreen.storyboard */; };
 		7929680F2A62003800411177 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7929680E2A62003800411177 /* TabBarController.swift */; };
 		792968112A6200EF00411177 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792968102A6200EF00411177 /* TabBarModel.swift */; };
+		792968132A6208DE00411177 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792968122A6208DE00411177 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		792967C32A608AA000411177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7929680E2A62003800411177 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		792968102A6200EF00411177 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
+		792968122A6208DE00411177 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Model.swift; path = HW14/TabBar/Model.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		792967D02A608E1C00411177 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				792968122A6208DE00411177 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				792968112A6200EF00411177 /* TabBarModel.swift in Sources */,
 				792967BA2A608AA000411177 /* ViewController.swift in Sources */,
 				7929680F2A62003800411177 /* TabBarController.swift in Sources */,
+				792968132A6208DE00411177 /* Model.swift in Sources */,
 				792967B62A608AA000411177 /* AppDelegate.swift in Sources */,
 				792967B82A608AA000411177 /* SceneDelegate.swift in Sources */,
 			);
